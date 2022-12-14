@@ -6,8 +6,7 @@
   }
   
   html {
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: Mulish;
     font-size: 10px;
   }
   
@@ -41,6 +40,8 @@
 
   .header__end a {
     padding: 0 8px;
+    cursor: pointer;
+    font-weight: 700;
   }
 
   .header__end-1 {
@@ -118,20 +119,27 @@
 /* section-2 */
 
 .section__2 {
-    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section__2--title {
+.container {
+    margin-top: 60px;
+    width: 1440px;
+}
+
+.container--title {
  text-align: center;
 }
 
-.section__2--title h1 {
+.container--title h1 {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
 }
 
-.section__2--title p {
+.container--title p {
     margin-top: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +147,7 @@
     color: #737B7D;
 }
 
-.section__2--body {
+.container--body {
     margin-top: 38px;
     display: flex;
     flex-direction: rox;
@@ -147,17 +155,17 @@
     text-align: center;
 }
 
-.section__2--body > .discover {
+.container--body > .discover {
     max-width: 350px;
 }
 
-.section__2--body h4 { 
+.container--body h4 { 
     font-weight: 700;
     font-size: 18px;
     color: #373F41;
 }
 
-.section__2--body h6 {
+.container--body h6 {
     font-weight: 400;
     font-size: 14px;
     color: #373F41;
@@ -165,26 +173,26 @@
     margin-bottom: 34px;
 }
 
-.section__2--body p {
+.container--body p {
     color: #3C64B1;
 }
 
 /*  */
 
-.section__2__img {
+.container__img {
     display: flex;
     justify-content: center;
     margin-top: 106px;
 }
 
-.section__2__img img {
+.container__img img {
     max-width: 100%;
     height: 440px;
     width: 540px;
     margin-right: 22px;
 }
 
-.section__2--content {
+.container--content {
     width: 540px;
     display: flex;
     flex-direction: column;
@@ -192,7 +200,7 @@
     justify-content: center;
 }
 
-.section__2--content h3 {
+.container--content h3 {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
@@ -200,7 +208,7 @@
 
 }
 
-.section__2--content >h6 {
+.container--content >h6 {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -208,7 +216,7 @@
     color: #737B7D;
 }
 
-.section__2--content > p {
+.container--content > p {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
@@ -221,6 +229,11 @@
     font-size: 16px;
     line-height: 22px;
     color: #737B7D;
+}
+
+.row > div > img {
+    width: 32px;
+    height: 32px;
 }
 
 .row1 {
